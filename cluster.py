@@ -19,4 +19,4 @@ identified_clusters
 data_with_clusters = data.copy()
 data_with_clusters['Clusters'] = identified_clusters 
 plt.scatter(data_with_clusters['Longitude'],data_with_clusters['Latitude'],c=data_with_clusters['Clusters'],cmap='rainbow')
-
+plt.show()
